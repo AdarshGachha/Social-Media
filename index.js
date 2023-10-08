@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 // mongoose.connect("mongodb://0.0.0.0:27017/BMS");
-mongoose.connect("mongodb://0.0.0.0:27017/blog");
+mongoose.connect("mongodb+srv://aadi:aadi@main.dcxw8ea.mongodb.net/?retryWrites=true&w=majority");
 
 
 const express = require("express");
